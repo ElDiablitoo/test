@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Well, well, well...</h1>
+
+<p>i <span class="fst-italic">think</span> you have found the pack of flags that I was hiding.</p>
+
+<p>
+    If you're reading this message and you're not me, just turn back now.
+ 
+    all my flags are stored in safe place.
+    It's literally 100% unhackable.
+</p>
+
+<p>
+    but if, you <span class="fst-italic">are</span> me, then welcome back!
+    Your&mdash;err, here is my&mdash;flags, they are waiting for u
+    <a href="{{ url_for('flags') }}">here</a>.
+</p>
+
+{% endblock %}
